@@ -3,6 +3,19 @@
  "username": "vaneadmin@assure.com",
  "password": "Password123"
 
+    },
+
+    "wrong_username": {
+        "username": "wronguser",
+        "password": "Password123"
+
+    },
+
+    "wrong_password": {
+        "username": "vaneadmin@assure.com",
+        "password": "wrong1234"
+
+
     }
 
 }

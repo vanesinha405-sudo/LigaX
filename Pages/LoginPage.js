@@ -23,6 +23,7 @@ export class  LoginPage {
 
 
     login(username, password) {
+        cy.visit('https://test-admin.ligax.io/secure');
         this.enterUsername(username);
         this.enterPassword(password);
         this.clickLoginButton();
